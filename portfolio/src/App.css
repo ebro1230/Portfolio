@@ -1,0 +1,49 @@
+.tech-skills-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.techskill{
+  margin-left: 2%;
+margin-right: 2%;
+margin-bottom: 15px;
+}
+
+.techcards{
+  justify-content: space-evenly;
+}
+
+.techtitle{
+  justify-content: center;
+}
+.techtitle h3{
+  width:fit-content;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top{
+  height: 80px;
+width: auto;
+margin-top: 15px;
+margin-right: 15px;
+display: flex;
+justify-content: center;
+align-self: center;
+margin-left: 15px
+}
+.card{
+  min-width: 300px;
+  width: 30%;
+  max-width: 22rem;
+}
+.card-text{
+  text-align:center;
+}
+.card-body{
+  min-height: 200px;
+}
