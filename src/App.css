@@ -1,3 +1,6 @@
+.background{
+
+}
 .tech-skills-container {
   display:flex;
   justify-content: center;
@@ -5,8 +8,8 @@
 }
 .techskill{
   margin-left: 2%;
-margin-right: 2%;
-margin-bottom: 15px;
+  margin-right: 2%;
+  margin-bottom: 15px;
 }
 
 .techcards{
@@ -28,22 +31,94 @@ margin-bottom: 15px;
 
 .card-img-top{
   height: 80px;
-width: auto;
-margin-top: 15px;
-margin-right: 15px;
-display: flex;
-justify-content: center;
-align-self: center;
-margin-left: 15px
+  width: auto;
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: 15px
 }
 .card{
   min-width: 300px;
   width: 30%;
   max-width: 22rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 .card-text{
   text-align:center;
 }
 .card-body{
   min-height: 200px;
+}
+
+.about-me-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:40px;
+}
+.profilepic-and-badges{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+}
+.social-media-icons{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.linkedIn a {
+  color:rgb(0, 119, 181);
+  display: flex;
+  justify-content: center;
+}
+.github a {
+  color:rgb(23, 21, 21);
+  display: flex;
+  justify-content: center;
+}
+.email a {
+  color:rgb(177, 181, 181);
+  display: flex;
+  justify-content: center;
+}
+.intro-text{
+  margin: 0px 30px 0px 30px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:992px) and (min-width:0) {
+  .intro-text h5{
+    text-align: center;
+  }
+}
+.projecttitle{
+  justify-content: center;
+}
+.projecttitle h3{
+  width:fit-content;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.contacttitle{
+  justify-content: center;
+}
+.contacttitle h3{
+  width:fit-content;
+  text-decoration: underline;
+  font-weight: bold;
 }
