@@ -4,7 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Accordion from "react-bootstrap/Accordion";
+import Button from "react-bootstrap/Button";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -180,6 +182,170 @@ function App() {
       <div className="my-projects-div" id="my-projects-div">
         <div className="row projecttitle">
           <h3>My Projects</h3>
+        </div>
+        <div className="project-container">
+          <Accordion className="project">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <Row>
+                  <Col>
+                    <Figure>
+                      <Figure.Image
+                        width={176}
+                        height={180}
+                        alt="GigGuide"
+                        src=""
+                      />
+                    </Figure>
+                  </Col>
+                  <Col>GigGuide</Col>
+                </Row>
+              </Accordion.Header>
+              <Accordion.Body>
+                <Row>
+                  <Col>
+                    Any live music fans out there? Look no further than
+                    GigGuide. This website allows you to find live shows
+                    anywhere in the world from mainstream artists to local
+                    unknown bands. Based on your current location, you will be
+                    provided with a list of upcoming shows that you may be
+                    interested in. After signing up, as a fan you can favorite
+                    your artists and save upcoming shows or as an artist, you
+                    can post all of your upcoming shows so people can find where
+                    and when you are performing. As an artist, you can also post
+                    songs you've released with links to where fans can listen.
+                  </Col>
+                  <Col>
+                    <a href="">
+                      <Button>View Site</Button>
+                    </a>
+                    <a href="">
+                      <Button>View Code</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <Accordion className="project">
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>
+                <Row>
+                  <Col>
+                    <Figure>
+                      <Figure.Image
+                        width={176}
+                        height={180}
+                        alt="To Do List"
+                        src=""
+                      />
+                    </Figure>
+                  </Col>
+                  <Col>To Do List</Col>
+                </Row>
+              </Accordion.Header>
+              <Accordion.Body>
+                <Row>
+                  <Col>
+                    Always forget what you need when you're at the grocery
+                    store? Have a ton of things to do, but can't keep them
+                    straight in your head? This website is for you. This
+                    provides an easy to use, intuitive website for creating To
+                    Do Lists that you can edit, delete, or check off after
+                    completion.
+                  </Col>
+                  <Col>
+                    <a href="">
+                      <Button>View Site</Button>
+                    </a>
+                    <a href="">
+                      <Button>View Code</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <Accordion className="project">
+            <Accordion.Item eventKey="2">
+              <Accordion.Header>
+                <Row>
+                  <Col>
+                    <Figure>
+                      <Figure.Image
+                        width={176}
+                        height={180}
+                        alt="Cook Book w/Contentful CMS"
+                        src=""
+                      />
+                    </Figure>
+                  </Col>
+                  <Col>Cook Book</Col>
+                </Row>
+              </Accordion.Header>
+              <Accordion.Body>
+                <Row>
+                  <Col>
+                    For those people that like to stay in, but never know what
+                    to cook, this cookbook provides easy to follow recipes for
+                    culinary dishes from around the world. For those of you that
+                    can't stand modern day food blogs, as an added bonus, this
+                    website doesn't give you a 20 page intro or backstory, just
+                    straight to the point with the ingredients and instructions.
+                  </Col>
+                  <Col>
+                    <a href="">
+                      <Button>View Site</Button>
+                    </a>
+                    <a href="">
+                      <Button>View Code</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <Accordion className="project">
+            <Accordion.Item eventKey="3">
+              <Accordion.Header>
+                <Row>
+                  <Col>
+                    <Figure>
+                      <Figure.Image
+                        width={176}
+                        height={180}
+                        alt="10 Best Restaurants in Köln"
+                        src=""
+                      />
+                    </Figure>
+                  </Col>
+                  <Col>10 Best Restaurants in Köln</Col>
+                </Row>
+              </Accordion.Header>
+              <Accordion.Body>
+                <Row>
+                  <Col>
+                    <p>
+                      For any foodies that want to visit Köln, this website
+                      should be your first stop. It provides you with the top 10
+                      best restaurants in Köln and all of the information you
+                      need to decide which one you want to visit. These
+                      restaurants are sure to satisfy any culinary buff's food
+                      cravings.
+                    </p>
+                  </Col>
+                  <Col>
+                    <a href="">
+                      <Button>View Site</Button>
+                    </a>
+                    <a href="">
+                      <Button>View Code</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
       <div className="contact-me-div" id="contact-me-div">

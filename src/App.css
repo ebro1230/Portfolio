@@ -150,3 +150,14 @@
 .contact-me-text{
   margin: 0px 60px 0px 60px;
 }
+.project-container{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.accordion{
+  min-width: 300px;
+  width: 51%;
+  max-width: 22rem;
+  margin-top: 10px;
+}
