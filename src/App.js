@@ -1,8 +1,10 @@
 import Card from "react-bootstrap/Card";
 import Figure from "react-bootstrap/Figure";
-import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -22,7 +24,27 @@ import "./App.css";
 function App() {
   return (
     <div className="background">
-      <div className="about-me-container">
+      <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+        <Navbar.Brand href="#about-me-container">Ed's Portfolio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="nav-options">
+            <Nav.Link eventKey={1} href="#about-me-container">
+              Home
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#tech-skills-container">
+              Skills
+            </Nav.Link>
+            <Nav.Link eventKey={3} href="#my-projects-div">
+              Projects
+            </Nav.Link>
+            <Nav.Link eventKey={4} href="#contact-me-div">
+              Contact Me
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <div className="about-me-container" id="about-me-container">
         <div className="col-lg-3 col-12 profilepic-and-badges">
           <Figure>
             <Figure.Image
@@ -82,7 +104,7 @@ function App() {
           </h5>
         </div>
       </div>
-      <div className="tech-skills-container">
+      <div className="tech-skills-container" id="tech-skills-container">
         <div className="row techtitle">
           <h3>My Tech Skills</h3>
         </div>
@@ -155,14 +177,36 @@ function App() {
           </Card>
         </div>
       </div>
-      <div className="my-projects-div">
+      <div className="my-projects-div" id="my-projects-div">
         <div className="row projecttitle">
           <h3>My Projects</h3>
         </div>
       </div>
-      <div className="contact-me-div">
+      <div className="contact-me-div" id="contact-me-div">
         <div className="row contacttitle">
           <h3>Contact Me</h3>
+        </div>
+        <div className="contact-me-text">
+          <h5>
+            If you want to exchange experiences, are looking for a passionate
+            Full-Stack Web Developer, have a question, or want to connect don’t
+            hesitate to contact me. I am happy to get in touch!{" "}
+          </h5>
+          <br />
+          <h5>
+            I am looking forward to your message via{" "}
+            <a target="_blank" href="mailto:ebro1230(at)gmail.com">
+              email
+            </a>{" "}
+            or{" "}
+            <a target="_blank" href="https://www.linkedin.com/in/ebro1230/">
+              LinkedIn
+            </a>
+            .
+          </h5>
+          <br />
+          <h5>Ed Brown</h5>
+          <h5>Dresden, Germany</h5>
         </div>
       </div>
     </div>

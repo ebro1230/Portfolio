@@ -5,6 +5,7 @@
   display:flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 60px;
 }
 .techskill{
   margin-left: 2%;
@@ -66,7 +67,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top:40px;
+  padding-top:70px;
 }
 .profilepic-and-badges{
   align-self: center;
@@ -100,6 +101,9 @@
   display: flex;
   flex-direction: column;
 }
+.intro-text h5{
+  margin-bottom:24px;
+}
 
 @media (max-width:992px) and (min-width:0) {
   .intro-text h5{
@@ -121,4 +125,28 @@
   width:fit-content;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.nav-options{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+}
+
+.my-projects-div{
+  padding-top:60px;
+}
+.contact-me-div{
+  padding-top:60px;
+}
+.contact-me-text{
+  margin: 0px 60px 0px 60px;
 }
