@@ -19,6 +19,10 @@ import Node from "./images/nodejs.svg";
 import Mongo from "./images/mongodb.svg";
 import Git from "./images/git.svg";
 import Headshot from "./images/Headshot.jpg";
+import GigGuide from "./images/GigGuide.png";
+import BRiC from "./images/BRiC.jpg";
+import ToDoList from "./images/ToDoList.jpg";
+import Cookbook from "./images/Cookbook.jpg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -100,9 +104,13 @@ function App() {
           </h5>
           <br />
           <h5>
+            In my free time, when I'm not coding, I like going to see live
+            music, traveling, and playing piano & tennis.
+          </h5>
+          <h5>
             I'm excited to take on the new challenges that Full-Stack
             Development brings, while I continue building my knowledge and
-            skills in this ever-changing and evolving field.
+            skills in this ever-changing field.
           </h5>
         </div>
       </div>
@@ -191,10 +199,10 @@ function App() {
                   <Col>
                     <Figure>
                       <Figure.Image
-                        width={176}
-                        height={180}
+                        width={400}
+                        height={450}
                         alt="GigGuide"
-                        src=""
+                        src={GigGuide}
                       />
                     </Figure>
                   </Col>
@@ -215,11 +223,16 @@ function App() {
                     and when you are performing. As an artist, you can also post
                     songs you've released with links to where fans can listen.
                   </Col>
-                  <Col>
-                    <a href="">
+                </Row>
+                <Row>
+                  <Col className="code-buttons">
+                    <a href="gigguide.onrender.com" target="_blank">
                       <Button>View Site</Button>
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ebro1230/GigGuide-FrontEnd"
+                      target="_blank"
+                    >
                       <Button>View Code</Button>
                     </a>
                   </Col>
@@ -234,10 +247,10 @@ function App() {
                   <Col>
                     <Figure>
                       <Figure.Image
-                        width={176}
-                        height={180}
+                        width={400}
+                        height={450}
                         alt="To Do List"
-                        src=""
+                        src={ToDoList}
                       />
                     </Figure>
                   </Col>
@@ -254,11 +267,19 @@ function App() {
                     Do Lists that you can edit, delete, or check off after
                     completion.
                   </Col>
-                  <Col>
-                    <a href="">
+                </Row>
+                <Row>
+                  <Col className="code-buttons">
+                    <a
+                      href="https://ebro1230.github.io/To_Do_List/"
+                      target="_blank"
+                    >
                       <Button>View Site</Button>
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ebro1230/To_Do_List/tree/EdBranch"
+                      target="_blank"
+                    >
                       <Button>View Code</Button>
                     </a>
                   </Col>
@@ -273,10 +294,10 @@ function App() {
                   <Col>
                     <Figure>
                       <Figure.Image
-                        width={176}
-                        height={180}
+                        width={400}
+                        height={450}
                         alt="Cook Book w/Contentful CMS"
-                        src=""
+                        src={Cookbook}
                       />
                     </Figure>
                   </Col>
@@ -291,13 +312,21 @@ function App() {
                     culinary dishes from around the world. For those of you that
                     can't stand modern day food blogs, as an added bonus, this
                     website doesn't give you a 20 page intro or backstory, just
-                    straight to the point with the ingredients and instructions.
+                    straight to the point with the ingredients and recipes.
                   </Col>
-                  <Col>
-                    <a href="">
+                </Row>
+                <Row>
+                  <Col className="code-buttons">
+                    <a
+                      href="https://ebro1230.github.io/Contentful_to_NodeJS_Cookbook/"
+                      target="_blank"
+                    >
                       <Button>View Site</Button>
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ebro1230/Contentful_to_NodeJS_Cookbook"
+                      target="_blank"
+                    >
                       <Button>View Code</Button>
                     </a>
                   </Col>
@@ -312,33 +341,41 @@ function App() {
                   <Col>
                     <Figure>
                       <Figure.Image
-                        width={176}
-                        height={180}
-                        alt="10 Best Restaurants in Köln"
-                        src=""
+                        width={400}
+                        height={450}
+                        alt="10 Best Restaurants in Cologne"
+                        src={BRiC}
                       />
                     </Figure>
                   </Col>
-                  <Col>10 Best Restaurants in Köln</Col>
+                  <Col>10 Best Restaurants in Cologne</Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
                 <Row>
                   <Col>
                     <p>
-                      For any foodies that want to visit Köln, this website
+                      For any foodies that want to visit Cologne, this website
                       should be your first stop. It provides you with the top 10
-                      best restaurants in Köln and all of the information you
+                      best restaurants in Cologne and all of the information you
                       need to decide which one you want to visit. These
                       restaurants are sure to satisfy any culinary buff's food
                       cravings.
                     </p>
                   </Col>
-                  <Col>
-                    <a href="">
+                </Row>
+                <Row>
+                  <Col className="code-buttons">
+                    <a
+                      href="https://ebro1230.github.io/Bootcamp_Crossover_2/"
+                      target="_blank"
+                    >
                       <Button>View Site</Button>
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ebro1230/Bootcamp_Crossover_2"
+                      target="_blank"
+                    >
                       <Button>View Code</Button>
                     </a>
                   </Col>

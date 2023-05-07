@@ -156,8 +156,17 @@
   flex-wrap: wrap;
 }
 .accordion{
-  min-width: 300px;
-  width: 51%;
+  min-width: 40%;
   max-width: 22rem;
   margin-top: 10px;
+}
+.code-buttons{
+  display:flex;
+  justify-content: space-evenly;
+}
+figure{
+  margin: 0 0 0rem;
+}
+.figure-img{
+  margin-bottom: 0px;
 }
