@@ -226,7 +226,7 @@ function App() {
                 </Row>
                 <Row>
                   <Col className="code-buttons">
-                    <a href="gigguide.onrender.com" target="_blank">
+                    <a href="https://gigguide.onrender.com" target="_blank">
                       <Button>View Site</Button>
                     </a>
                     <a
@@ -271,13 +271,13 @@ function App() {
                 <Row>
                   <Col className="code-buttons">
                     <a
-                      href="https://ebro1230.github.io/To_Do_List/"
+                      href="https://ebro1230.github.io/ToDoList2/"
                       target="_blank"
                     >
                       <Button>View Site</Button>
                     </a>
                     <a
-                      href="https://github.com/ebro1230/To_Do_List/tree/EdBranch"
+                      href="https://github.com/ebro1230/ToDoList2/tree/EdBranchJustEd"
                       target="_blank"
                     >
                       <Button>View Code</Button>
