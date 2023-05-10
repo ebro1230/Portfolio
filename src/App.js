@@ -348,7 +348,7 @@ function App() {
                       />
                     </Figure>
                   </Col>
-                  <Col>10 Best Restaurants in Cologne</Col>
+                  <Col>Best Restaurants in Cologne</Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
@@ -367,7 +367,7 @@ function App() {
                 <Row>
                   <Col className="code-buttons">
                     <a
-                      href="https://ebro1230.github.io/Bootcamp_Crossover_2/"
+                      href="https://bestrestaurantscologne.onrender.com"
                       target="_blank"
                     >
                       <Button>View Site</Button>
