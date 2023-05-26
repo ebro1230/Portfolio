@@ -195,7 +195,7 @@ function App() {
           <Accordion className="project">
             <Accordion.Item eventKey="0">
               <Accordion.Header>
-                <Row>
+                <Row className="project-header">
                   <Col>
                     <Figure>
                       <Figure.Image
@@ -206,7 +206,7 @@ function App() {
                       />
                     </Figure>
                   </Col>
-                  <Col>GigGuide</Col>
+                  <Col className="project-title">GigGuide</Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
@@ -224,6 +224,7 @@ function App() {
                     songs you've released with links to where fans can listen.
                   </Col>
                 </Row>
+                <br />
                 <Row>
                   <Col className="code-buttons">
                     <a href="https://gigguide.onrender.com" target="_blank">
@@ -243,7 +244,7 @@ function App() {
           <Accordion className="project">
             <Accordion.Item eventKey="1">
               <Accordion.Header>
-                <Row>
+                <Row className="project-header">
                   <Col>
                     <Figure>
                       <Figure.Image
@@ -254,7 +255,7 @@ function App() {
                       />
                     </Figure>
                   </Col>
-                  <Col>To Do List</Col>
+                  <Col className="project-title">To Do List</Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
@@ -268,6 +269,7 @@ function App() {
                     completion.
                   </Col>
                 </Row>
+                <br />
                 <Row>
                   <Col className="code-buttons">
                     <a
@@ -290,7 +292,7 @@ function App() {
           <Accordion className="project">
             <Accordion.Item eventKey="2">
               <Accordion.Header>
-                <Row>
+                <Row className="project-header">
                   <Col>
                     <Figure>
                       <Figure.Image
@@ -301,7 +303,7 @@ function App() {
                       />
                     </Figure>
                   </Col>
-                  <Col>Cook Book</Col>
+                  <Col className="project-title">Cook Book</Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
@@ -315,6 +317,7 @@ function App() {
                     straight to the point with the ingredients and recipes.
                   </Col>
                 </Row>
+                <br />
                 <Row>
                   <Col className="code-buttons">
                     <a
@@ -337,7 +340,7 @@ function App() {
           <Accordion className="project">
             <Accordion.Item eventKey="3">
               <Accordion.Header>
-                <Row>
+                <Row className="project-header">
                   <Col>
                     <Figure>
                       <Figure.Image
@@ -348,7 +351,9 @@ function App() {
                       />
                     </Figure>
                   </Col>
-                  <Col>Best Restaurants in Cologne</Col>
+                  <Col className="project-title">
+                    Best Restaurants in Cologne
+                  </Col>
                 </Row>
               </Accordion.Header>
               <Accordion.Body>
@@ -364,6 +369,7 @@ function App() {
                     </p>
                   </Col>
                 </Row>
+                <br />
                 <Row>
                   <Col className="code-buttons">
                     <a
