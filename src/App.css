@@ -175,6 +175,7 @@
   margin-top: 10px;
   font-family: 'Roboto Slab', serif;
   background-color: #cacaca;
+  --bs-accordion-bg: #cacaca;
 }
 .code-buttons{
   display:flex;
