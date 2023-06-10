@@ -11,6 +11,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faSquare } from "@fortawesome/free-solid-svg-icons";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 import HTML from "./images/html-5.svg";
 import Javascript from "./images/javascript.svg";
@@ -72,7 +74,10 @@ function App() {
                     target="_blank"
                     href="https://www.linkedin.com/in/ebro1230/"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <span className="fa-layers fa-fw">
+                      <FontAwesomeIcon icon={faSquare} color="white" />
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </span>
                   </a>{" "}
                 </Col>
                 <Col className="email">

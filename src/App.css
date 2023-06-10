@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .background{
-  padding: 0px 40px 20px 40px;
-  background-color: rgb(240, 240, 241);
+  padding: 0px 0px 0px 0px;
+  
 }
 .tech-skills-container {
   display:flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 60px;
+  padding: 100px 0px 200px 0px;
+  background-image: url(./images/Background5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .techskill{
   margin-left: 2%;
@@ -22,17 +25,20 @@
 
 .techtitle{
   justify-content: center;
+  color:white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  padding:50px 0 100px 0;
 }
 .techtitle h3{
   width:fit-content;
   text-decoration: underline;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 .card-title{
   display: flex;
   justify-content: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .card-img-top{
@@ -50,7 +56,7 @@
   width: 30%;
   max-width: 22rem;
   border-radius: 4px;
-  background: #cacaca;
+  background: white;
   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   cursor: pointer;
@@ -62,7 +68,7 @@
 }
 .card-text{
   text-align:center;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 .card-body{
   min-height: 200px;
@@ -73,7 +79,13 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top:70px;
+ 
+  padding: 200px 40px 200px 40px;
+  background-image: url(./images/Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 .profilepic-and-badges{
   align-self: center;
@@ -91,7 +103,7 @@
   justify-content: center;
 }
 .github a {
-  color:rgb(23, 21, 21);
+  color:rgb(255, 255, 255);
   display: flex;
   justify-content: center;
 }
@@ -106,36 +118,38 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 .intro-text h5{
   margin-bottom:24px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width:992px) and (min-width:0) {
   .intro-text h5{
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
   }
 }
 .projecttitle{
   justify-content: center;
+  padding:50px 0 100px 0;
 }
 .projecttitle h3{
   width:fit-content;
   text-decoration: underline;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 .contacttitle{
   justify-content: center;
+  padding:50px 0 100px 0;
 }
 .contacttitle h3{
   width:fit-content;
   text-decoration: underline;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-options{
@@ -143,39 +157,58 @@
   justify-content: space-evenly;
 }
 
+.nav-link{
+  color:white;
+}
+
+.navbar-toggler{
+  margin-right:20px;
+}
 .navbar-collapse{
   justify-content: flex-end;
   margin-right: 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+  padding-left:20px;
 }
 
 .navbar-brand{
   margin-left: 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .my-projects-div{
-  padding-top:60px;
+  background-image: url(./images/Background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  padding: 100px 0px 200px 0px;
 }
 .contact-me-div{
-  padding-top:60px;
+  background-image: url(./images/Background7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  padding: 100px 0px 200px 0px;
 }
 .contact-me-text{
   margin: 0px 20px 0px 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 .project-container{
   display:flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
 .accordion{
   min-width: 40%;
   max-width: 22rem;
   margin-top: 10px;
-  font-family: 'Roboto Slab', serif;
-  background-color: #cacaca;
-  --bs-accordion-bg: #cacaca;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  --bs-accordion-bg:white;
 }
 .code-buttons{
   display:flex;
@@ -194,5 +227,9 @@ figure{
 }
 .project-header{
   width:100%;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+.figure-caption{
+  padding-top:20px;
+  padding-bottom:40px;
 }
